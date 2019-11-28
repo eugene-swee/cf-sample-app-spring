@@ -3,6 +3,6 @@ applications:
 - name: smu_demo
   memory: 768M
   instances: 1
-  random-route: true
+  random-route: false
   buildpacks:
   - https://github.com/cloudfoundry/java-buildpack.git
